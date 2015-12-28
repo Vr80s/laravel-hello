@@ -1,0 +1,24 @@
+{
+    "name": "vr80s/laravel-hello",
+    "description": "My first Laravel Package by vr80s",
+    "keywords": ["laravel", "hello"],
+    "homepage": "http://github.com/vr80s/laravel-hello",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vr80s",
+            "email": "tofenglu@gmail.com",
+            "homepage": "http://github.com/vr80s"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.0.*|5.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {"Vr80s\\LaravelHello\\": "src"}
+    }
+}
