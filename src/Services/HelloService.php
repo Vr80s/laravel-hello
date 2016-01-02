@@ -6,7 +6,7 @@ class HelloService {
     protected $num = 1;
 
     public function hello(){
-        return 'hi LaravelHello v1.0.1>, num = '.$this->num;
+        return 'hi LaravelHello v1.0.2>, num = '.$this->num;
     }
 
     public function getNum(){
